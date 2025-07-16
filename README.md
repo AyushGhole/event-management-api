@@ -15,5 +15,25 @@ A RESTful API for managing events and user registrations, built with **Node.js**
 
 ---
 
-## 🗂️ **Project Structure**
+## 🗂️ **Project Structure**<br>
+event-management-api/<br>
+│<br>
+├── controllers/<br>
+│ ├── eventController.js<br>
+│ ├── userController.js<br>
+│<br>
+├── models/<br>
+│ ├── Event.js<br>
+│ ├── User.js<br>
+│<br>
+├── routes/<br>
+│ ├── eventRoutes.js<br>
+│ ├── userRoutes.js<br>
+│<br>
+├── db/<br>
+│ ├── index.js<br>
+│<br>
+├── .env<br>
+├── server.js<br>
+├── package.json<br>
 
